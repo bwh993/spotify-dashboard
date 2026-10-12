@@ -45,9 +45,10 @@ I first completed EDA using Pandas and Matplotlib, checking dataset shape, data 
 There are outliers: a small subset of songs remain on the chart for an extremely long time and can skew average metrics. I add a warning caption below the headline numbers to remind the viewer about these outliers. There are no missing time periods or ambiguous columns.
 
 ### Page layout
-- Top: headline KPIs for instant high-level summary
-- Middle: histogram to explain the distribution behind the KPIs
-- Bottom: genre filter for interactive exploration. No raw data table, as the manager does not need individual row details.
+- Top: Genre dropdown filter for interactive exploration
+- Middle: headline KPIs for instant high-level summary
+- Then: histogram to explain the distribution behind the KPIs.
+- No raw data table, as the manager does not need individual row details.
 I sketched this layout on paper before coding, and removed any elements that would not affect the manager’s decisions.
 
 ## Step4: Decide the Refresh Frequency
